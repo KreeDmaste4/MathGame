@@ -1,0 +1,18 @@
+@media(max-width:576px) {
+    .info{
+        position: relative;
+        bottom: 0;
+        margin-left: 45px;
+        margin-bottom: 10px;
+    }
+    .prim{
+        max-width: 250px;
+        width: 100%;
+    }
+    .link_back{
+        margin-top: 10px;
+    }
+    .money{
+        height: 70px;
+    }
+}

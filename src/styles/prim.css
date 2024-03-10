@@ -1,0 +1,151 @@
+.box_prim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%; /* Ширина на весь экран */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем внутренние отступы */
+}
+.first{
+    background-image: url('../images/фон1.jfif');
+}
+.second{
+    background-image: url('../images/фон2.jfif');
+}
+.third{
+    background-image: url('../images/фон3.jfif');
+}
+.four{
+    background-image: url('../images/фон4.jfif');
+}
+.five{
+    background-image: url('../images/фон5.jfif');
+}
+.six{
+    background-image: url('../images/фон6.jfif');
+}
+.seven{
+    background-image: url('../images/фон7.jfif');
+}
+
+.prim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+    gap: 10px;
+    background-color: rgb(175, 175, 175);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.prim_num{
+    background-color: rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 10px;
+}
+.prim_otv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    padding: 5px;
+    border-radius: 2px;
+    border: solid 1px black;
+}
+.prim_otv_btn{
+    border-radius: 3px;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    transition: all 300ms;
+}
+.prim_otv_btn:hover{
+    background-color: orange;
+    transform: scale(1.10);
+}
+.prim_btn{
+    max-width: 250px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: rgb(163, 163, 163);
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    margin: 10px auto;
+    color: black;
+}
+.res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    background-color: rgb(214, 214, 214);
+    padding: 10px;
+    border-radius: 10px;
+}
+.true{
+    color: green;
+    border: solid 1px green;
+}
+.false{
+    color: red;
+    border: solid 1px red;
+}
+
+.info{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background-color: rgb(82, 82, 82);
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.store_link{
+    transition: all 300ms;
+    border-radius: 10px;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store_link:hover{
+    background-color: rgb(228, 228, 228);
+    transform: scale(1.05);
+    color: black;
+}
+
+.store_link_img{
+    width: 100px;
+    height: 100px;
+}
+.money_box_img{
+    width: 80px;
+    height: 80px;
+}
+.money_box_text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,30 @@
+.link{
+    background-color: rgb(182, 182, 182);
+    border-radius: 10px;
+    transition: all 300ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px purple;
+}
+.link_img{
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    height: 200px;
+}
+.link:hover{
+    transform: scale(1.10);
+    background-color: rgb(70, 69, 69);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.error{
+    font-size: 20px;
+    color: red;
+}
